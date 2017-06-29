@@ -1,0 +1,397 @@
+/*
+Theme Name: Griffin
+*/
+
+/* Global */
+html,
+body,
+#hd,
+#bd,
+#ft {
+	background-color: #000;
+}
+
+
+#hd {
+}
+
+#ft {
+	border-top: 1px solid #222;
+}
+
+
+/* Links */
+
+.griffin-theme a:link {
+    color: #C00;
+}
+
+.griffin-theme a:visited {
+    color: #C00;
+}
+
+.griffin-theme a:hover {
+    color: #F00;
+}
+
+.griffin-theme a:active {
+    color: #FFF;
+}
+
+
+#util-menu .util-item a {
+	background: none;
+}
+
+#util-menu .util-item .username {
+	color: #FFF;
+	background-color: none;
+}
+
+
+#context-menu {
+    padding: 5px;
+	background-color: #B62332;
+    border-bottom: 1px solid #000;
+    overflow: auto;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-radius-topleft: 4px;
+    -webkit-border-radius-topright: 4px;
+}
+
+/* Main Navigation */
+
+#main-nav {
+	background-color: #000;
+}
+
+#main-nav .nav-title {
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #B62332;
+    text-transform: uppercase;
+    background-color: #64131C;
+    border-bottom: 1px solid #000;
+}
+
+#main-nav .nav-item a {
+    display: block;
+    padding: 6px 5px 6px 10px;
+    font-size: 14px;
+	color: #CCC;
+    text-decoration: none;
+    background-color: #1F1F1F;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    overflow: auto;
+}
+
+#main-nav .nav-item a:hover {
+    color: #F7ECB7;
+	background-color: #313131;
+}
+
+#main-nav .selected a,
+#main-nav .selected a:hover {
+    width: 166px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #B62332;
+    border-bottom: 1px solid #000;
+}
+
+#main {
+	background-color: #B62332;
+}
+
+/* Content Menu */
+
+.content-menu {
+	background-color: #B62332;
+}
+
+.content-menu .menu-item a.link-button {
+    background: url(images/button-bg.png) no-repeat right -96px;
+}
+
+.content-menu .menu-item a.dropdown-select-button {
+    background: url(images/dropdown-select-button-bg.png) no-repeat right -96px;
+}
+
+.content-menu .menu-item a.link-button span {
+	color: #FFF;
+    background: url(images/button-bg.png) no-repeat left top;
+}
+
+.content-menu .menu-item a.dropdown-select-button span {
+	color: #FFF;
+    background: url(images/dropdown-select-button-bg.png) no-repeat left top;
+}
+
+
+
+/* Content Items Grid */
+
+.items-grid {
+    background-color: #1F1F1F;
+    border: 3px solid #64131C;
+}
+
+.items-grid .log-head-row th {
+    background-color: #000;
+    border-bottom: 1px solid #64131C;
+}
+
+.items-grid .log-row td {
+    background-color: #000;
+    border-bottom: 1px solid #64131C;
+}
+
+.items-grid .message-row td {
+    color: #CCC;
+    background-color: #1F1F1F;
+    border-bottom: 1px solid #64131C;
+}
+
+.items-grid .unread td {
+    color: #EEE;
+    background-color: #141414;
+}
+
+.items-grid .hover td {
+    background-color: #292929;
+}
+
+.items-grid .mousedown td {
+    background-color: #333333;
+}
+
+.items-grid .clicked td {
+    background-color: #333333;
+}
+
+.items-grid .checked td {
+    background-color: #292929;
+}
+
+.items-grid .unread .phone-number {
+    color: #CCC;
+}
+
+.items-grid .message-row .phone-number {
+    color: #666;
+}
+
+
+.items-grid .quick-call-popup {
+	background-color: #000;
+}
+
+
+.items-grid .quick-call-popup .call {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    width: 42px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    background: url(images/quick-call-popup-button-bg.png) no-repeat center center;
+}
+
+.items-grid .quick-sms-popup .send-button {
+    height: 28px;
+    width: 80px;
+    margin-left: 10px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background: url(images/quick-sms-popup-button-bg.png) no-repeat center center;
+}
+
+
+
+/* Message Details*/
+
+.message-details-header,
+.message-details-playback {
+	border-bottom: 1px solid #222;
+}
+
+.message-details-transcript {
+	border-bottom: none;
+}
+
+.message-details-header .quick-call-popup .call {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    width: 42px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    background: url(images/quick-call-popup-button-bg.png) no-repeat center center;
+}
+
+.message-details-notes #message-details-notes-list {
+	border: 1px solid #222;
+}
+
+.message-details-notes #message-details-notes-list .note {
+	border: 1px solid #222;
+}
+
+
+
+/* Admin */
+
+#user-container .user {
+    display: inline-block;
+    width: 221px;
+    margin: 0 10px 10px 0;
+    padding: 20px 10px 10px 10px;
+    background: #FFF url(images/user-drag-grip.png) no-repeat center 2px;
+    cursor: move;
+    overflow: hidden;
+    border: 1px solid #777;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+
+/* Buttons */
+
+button.normal-button {
+    background: transparent url(images/normal-button-bg.png) no-repeat right -96px;
+}
+
+button.normal-button span {
+    background: transparent url(images/normal-button-bg.png) no-repeat left top;
+    color: #F9EDD5;
+}
+
+button.normal-button:hover span, button.normal-button-hover span {
+    color: #FFF
+}
+
+button.normal-button:active span, button.normal-button-active span {
+    color: #FFF;
+}
+
+
+button.submit-button {
+    background: transparent url(images/submit-button-bg.png) no-repeat right -96px;
+}
+
+button.submit-button span {
+    background: transparent url(images/submit-button-bg.png) no-repeat left top;
+    color: #F9EDD5;
+}
+
+button.submit-button:hover span, button.submit-button-hover span {
+    color: #FFF
+}
+
+button.submit-button:active span, button.submit.button-active span {
+    color: #FFF;
+}
+
+
+button.call-button {
+    background: transparent url(images/call-button-bg.png) no-repeat right -96px;
+}
+
+button.call-button span {
+    background: transparent url(images/call-button-bg.png) no-repeat left top;
+    color: #F9EDD5;
+}
+
+button.call-button:hover span, button.call-button-hover span {
+    color: #FFF;
+}
+
+button.call-button:active span, button.call-button-active span {
+    color: #FFF;
+}
+
+button.sms-button {
+    background: transparent url(images/sms-button-bg.png) no-repeat right -96px;
+}
+
+button.sms-button span {
+    background: transparent url(images/sms-button-bg.png) no-repeat left top;
+    color: #F9EDD5;
+}
+
+button.sms-button:hover span, button.sms-button-hover span {
+    color: #FFF;
+}
+
+button.sms-button:active span, button.sms-button-active span {
+    color: #FFF;
+}
+
+
+.quick-call-button {
+    background: url(images/quick-call-button-bg.png) no-repeat center top;
+}
+
+.quick-sms-button {
+    background: url(images/quick-sms-button-bg.png) no-repeat center top;
+}
+
+
+.playback-button {
+    background: url(images/play-pause-stop-bg.png) no-repeat left top;
+}
+
+.assign-button {
+    background: url(images/assign-owner-button-bg.png) no-repeat right top;
+}
+
+
+.player .load-bar {
+	background-color: #FFF;
+}
+
+.player .play-bar {
+	background-color: #C00;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+
+/* Pagination */
+
+
+
+
+/* Dialog */
+
+.ui-widget-overlay {
+	background-image: url(images/bg-overlay.png);
+}
+
+
+a {
+	font-style: none;
+	text-decoration: none; 
+	border: none;
+}
+a:hover {
+   text-decoration: none;
+   border: none;
+}
+
+a:button {
+   text-decoration: none;
+   border: none;
+}
