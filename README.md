@@ -8,3 +8,7 @@ This Application is a mixure of Python and PHP requiring:
   4. Font-Awesome from https://github.com/FortAwesome/Font-Awesome
   5. openvbx theme layout pulled from https://github.com/twilio/OpenVBX/network
   6. jquery
+
+  ![Alt text](/screenshoot1.jpg?raw=true "Setting Page")
+  ![Alt text](/screenshoot2.jpg?raw=true "Dashboard Page")
+  
