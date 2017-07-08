@@ -3,7 +3,7 @@ session_start();
 $getaction = !empty($_POST['action']) ? ($_POST['action']) : '' ;
 $getID = !empty($_POST['messageId']) ? ($_POST['messageId']) : '' ;
 //require("validate.php"); 
-require_once("gvconfig.php");
+require("gvconfig.php");
 require_once('googlevoice.php');
 $google = new GoogleVoice($GmailAccount, $GmailPassword);
 

@@ -4,7 +4,7 @@ $pagenumber = !empty($_GET['pid']) ? ($_GET['pid']) : '';
 $commandline = !empty($_GET['command']) ? ($_GET['command']) : (!empty($_POST['action']) ? ($_POST['action']) : '' );
 //require("validate.php");
 require_once("header.php");
-require_once("gvconfig.php");
+require("gvconfig.php");
 require_once('googlevoice.php');
 $google = new GoogleVoice($GmailAccount, $GmailPassword);
 require_once('gvpagination.php');

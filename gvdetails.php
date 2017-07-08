@@ -3,7 +3,7 @@ session_start();
 $getID = !empty($_GET['messageId']) ? ($_GET['messageId']) : '';
 //require("validate.php"); 
 require_once("header.php");
-require_once("gvconfig.php"); 
+require("gvconfig.php"); 
 require_once('googlevoice.php');
 ?>
 <link type="text/css" rel="stylesheet" href="assets/<?php echo $theme; ?>/style.css" /> 
