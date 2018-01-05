@@ -78,9 +78,9 @@ elif command == "Trash" :
 elif command == "Placed" :
 	voice.placed()
 	allmessages = extractdata(voice.placed.html)
-elif command == "Recieved" :
-	voice.recieved()
-	allmessages = extractdata(voice.recieved.html)
+elif command == "Received" :
+	voice.received()
+	allmessages = extractdata(voice.received.html)
 elif command == "Missed" :	
 	voice.missed()
 	allmessages = extractdata(voice.missed.html)

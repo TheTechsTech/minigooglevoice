@@ -41,7 +41,7 @@ echo "<a href=\"gvdashboard.php?command=Voicemail\" class=\"fa fa-headphones fa-
 echo "<a href=\"gvdashboard.php?command=Recorded\" class=\"fa fa-file-sound-o fa-lg linkbuttonmedium linkbuttongray\"> Recorded </a> ";
 echo "<a href=\"gvdashboard.php?command=Missed\" class=\"fa fa-phone-square fa-lg linkbuttonmedium linkbuttongray linkbuttongray\"> Missed </a> ";
 echo "<a href=\"gvdashboard.php?command=Placed\" class=\"fa fa-phone-square fa-lg linkbuttonmedium linkbuttongray linkbuttongray\"> Placed </a> ";
-echo "<a href=\"gvdashboard.php?command=Recieved\" class=\"fa fa-phone-square fa-lg linkbuttonmedium linkbuttongray linkbuttongray\"> Recieved </a> ";
+echo "<a href=\"gvdashboard.php?command=Received\" class=\"fa fa-phone-square fa-lg linkbuttonmedium linkbuttongray linkbuttongray\"> Received </a> ";
 echo "<a href=\"gvdashboard.php?command=Spam\" class=\"fa fa-bug fa-lg linkbuttonmedium linkbuttongray linkbuttongray\"> Spam </a> ";
 echo "<a href=\"gvdashboard.php?command=Trash\" class=\"fa fa-trash fa-lg linkbuttonmedium linkbuttongray radiusright\"> Trash </a> ";
 echo "<span class=\"sizeme16 boldme\" style=\"float:right;\"> <a class=\"fa fa-wrench fa-lg\" href=\"gvsettingcheck.php\" > Setting </a> </span></td></tr></table>";

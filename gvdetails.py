@@ -58,8 +58,8 @@ elif command == "Trash" :
 elif command == "Placed" :
 	folder = voice.placed().messages
 	foundmsg = [ msg for msg in folder]
-elif command == "Recieved" :
-	folder = voice.recieved().messages
+elif command == "Received" :
+	folder = voice.received().messages
 	foundmsg = [ msg for msg in folder]
 elif command == "Missed" :	
 	folder = voice.missed().messages

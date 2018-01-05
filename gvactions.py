@@ -116,9 +116,9 @@ try:
 			counter = doactions(counter, ACTION, message.id , ID)
 			if (msglen == counter) :
 				break
-	elif msgfolder == "Recieved" :
-		msglen = len(voice.recieved().messages)
-		for message in voice.recieved().messages:
+	elif msgfolder == "Received" :
+		msglen = len(voice.received().messages)
+		for message in voice.received().messages:
 			counter = doactions(counter, ACTION, message.id , ID)
 			if (msglen == counter) :
 				break
